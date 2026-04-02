@@ -62,5 +62,6 @@ LOCAL_SRC_FILES := \
 		Parameters.cpp \
 		serenegiant_usb_UVCCamera.cpp
 
-LOCAL_MODULE    := UVCCamera
+# LOCAL_MODULE    := UVCCamera
+LOCAL_MODULE    := SonixUVC
 include $(BUILD_SHARED_LIBRARY)
